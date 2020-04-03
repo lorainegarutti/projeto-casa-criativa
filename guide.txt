@@ -1,0 +1,9 @@
+montagem das páginas html
+configuração css
+configuração servidor via node - express
+instalação nunjucks (template engine) e designação de variáveis para páginas ficarem dinâmicas
+
+instalação do sqlite3 (SQL)
+criação e formatação do banco de dados com a própria linguagem SQL 
+conexão dos inputs com o banco de dados via POST
+validação da aplicação via front-end

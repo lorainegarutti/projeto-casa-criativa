@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="/styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700,900&display=swap" rel="stylesheet">
+        {% block title %}
+            <title>Casa Criativa</title>
+        {% endblock title %}
+    </head>
+
+    <body id="{{ bodyId }}">
+        <div id="container">
+
+            {% block content %}
+            {% endblock %}
+
+        </div>
+
+        {% include "modal.html" %}
+
+        <script src="/scripts.js"></script>
+    </body>
+
+</html>
